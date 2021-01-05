@@ -33,7 +33,7 @@ export default {
     return arr
   },
   getSelecte: (data,key)=>{
-    console.log("//////////!!!!!!!!!!!",key);
+     //console.log("//////////!!!!!!!!!!!",key);
     let arr = [];
     if(key==="man"){
       arr = data.sort((a) => (a['sex'] ))

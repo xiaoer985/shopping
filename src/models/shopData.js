@@ -58,6 +58,7 @@ export default {
           data.forEach(item => {
             if (item.sex === key) {
               arr.push(item);
+           
             }
           })
         } else {
